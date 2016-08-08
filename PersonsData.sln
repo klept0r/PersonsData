@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonsDataWebApi", "PersonsDataWebApi\PersonsDataWebApi.csproj", "{408790D0-10CA-419B-89CC-BB084FC07336}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PersonsDataSpaUI", "http://localhost:9345", "{EADF616F-499E-4A98-96D3-560CCFB63F4B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_9345"
+		Debug.AspNetCompiler.PhysicalPath = "PersonsDataSpaUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9345\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_9345"
+		Release.AspNetCompiler.PhysicalPath = "PersonsDataSpaUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9345\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "PersonsDataSpaUI\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{408790D0-10CA-419B-89CC-BB084FC07336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408790D0-10CA-419B-89CC-BB084FC07336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408790D0-10CA-419B-89CC-BB084FC07336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408790D0-10CA-419B-89CC-BB084FC07336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADF616F-499E-4A98-96D3-560CCFB63F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADF616F-499E-4A98-96D3-560CCFB63F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADF616F-499E-4A98-96D3-560CCFB63F4B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADF616F-499E-4A98-96D3-560CCFB63F4B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

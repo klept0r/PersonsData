@@ -1,0 +1,38 @@
+﻿<div>
+    <div class="form-group">
+        <label class="col-md-2 control-label">Ulica:</label>
+        <div class="col-md-8">
+            <input type="text" class="form-control" placeholder="Podaj ulice" data-bind="value: street">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-2 control-label">Numer:</label>
+        <div class="col-md-8">
+            <input type="text" class="form-control" placeholder="Podaj Numer" data-bind="value: number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-2 control-label">Kod pocztowy:</label>
+        <div class="col-md-8">
+            <input type="text" id="postCodeMask"  class="form-control" placeholder="Podaj kod pocztowy" data-bind="value: postCode">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-2 control-label">Wybierz wojewodztwo:</label>
+        <div class="col-md-8">
+            <select class="form-control" data-bind="options: counties, optionsCaption:'Wojewodztwo', optionsText: 'text', optionsValue: 'value', value: selectedCounty"></select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-2 control-label">Wybierz powiat:</label>
+        <div class="col-md-8">
+            <select class="form-control" data-bind="options: districts, optionsCaption:'Powiat', optionsText: 'text', optionsValue: 'value', value: selectedDistrict, enable: districts().length"></select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-2 control-label">Wybierz miejscowosc:</label>
+        <div class="col-md-8">
+            <select class="form-control" data-bind="options: cities, optionsCaption:'Miasto', optionsText: 'text', optionsValue: 'value', value: selectedCity, enable: cities().length"></select>
+        </div>
+    </div>
+</div> 
